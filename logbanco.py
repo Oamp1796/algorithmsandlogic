@@ -14,7 +14,7 @@ H2=list(range(15,21))
 Hora_P=H1 + H2
 validando=True
 
-# Verificar si el banco está en la lista de bancos y si la longitud de la cuenta es 10
+# Verificar si el banco está en la lista de bancos y si la longitud de la cuenta es de 10 digitos
 if Banco_C in Bancos and len(Cuenta_C)==10:  
  print("Cuenta Valida")
 else: 
